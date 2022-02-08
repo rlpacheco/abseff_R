@@ -1,7 +1,7 @@
 Package: abseff
 Type: Package
 Title: Immediate calculation of absolute effects from relative treatment estimates
-Version: 0.1.1
+Version: 1.0.0
 Author: Rafael Leite Pacheco, Rachel Riera. Hospital Sírio-Libanês. Universidade Federal de São Paulo.
 Maintainer: <rleitepacheco@hotmail.com>
 Description: The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates.
