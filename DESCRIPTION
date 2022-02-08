@@ -1,11 +1,11 @@
 Package: abseff
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Immediate calculation of absolute effects from relative treatment estimates
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Rafael Leite Pacheco / Rachel Riera
+Maintainer: rleitepacheco@hotmail.com
+Description: The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates.    
+     The main intention of this command is to facilitate absolute effects derivation for health researchers and systematic review authors. Editors and peer-reviewers of Cochrane reviews may also find this helpful as they have to revise multiple summary of findings table.
+License: -
 Encoding: UTF-8
 LazyData: true
