@@ -77,7 +77,7 @@ N1 = point estimate for the relative risk
 
 N2 = lower limit of the confidence interval for the relative risk
 
-N3 = upper limite of the confidence interval for the relative risk
+N3 = upper limit of the confidence interval for the relative risk
 
 N4 = total number of events on control group
 
@@ -126,7 +126,7 @@ N1 = point estimate for the odds ratio
 
 N2 = lower limit of the confidence interval for the odds ratio
 
-N3 = upper limite of the confidence interval for the odds ratio
+N3 = upper limit of the confidence interval for the odds ratio
 
 N4 = total number of events on control group
 
@@ -177,7 +177,7 @@ N1 = point estimate for the hazard ratio
 
 N2 = lower limit of the confidence interval for the hazard ratio
 
-N3 = upper limite of the confidence interval for the hazard ratio
+N3 = upper limit of the confidence interval for the hazard ratio
 
 N4 = % of patients with event in control group
 
@@ -212,7 +212,7 @@ N1 = point estimate for the hazard ratio
 
 N2 = lower limit of the confidence interval for the hazard ratio
 
-N3 = upper limite of the confidence interval for the hazard ratio
+N3 = upper limit of the confidence interval for the hazard ratio
 
 N4 = % of patients with event-free in control group
 
