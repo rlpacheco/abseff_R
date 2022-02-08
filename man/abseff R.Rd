@@ -2,6 +2,14 @@
 \alias{abseff}
 \title{abseff - immediate calculation of absolute effects from relative treatment estimates}
 \usage{
+ .abseff_rr
+ .abseff_rr100
+ .abseff_or
+ .abseff_or100
+ .abseff_hrsurv
+ .abseff_hrsurv100
+ .abseff_hrevent
+ .abseff_hrevent100
 }
 \description{
 The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates.
@@ -9,6 +17,7 @@ The command abseff was created for the immediate calculating of absolute effects
 The main intention of this command is to facilitate absolute effects derivation for health researchers and systematic review authors. Editors and peer-reviewers of Cochrane reviews may also find this helpful as they have to revise multiple summary of findings table.
 }
 \examples{
+  
 **Syntax**
 
 **abseff_X** (N1, N2, N3, N4, N5) 
@@ -19,7 +28,6 @@ X = identification of treatment effect estimate (rr, rr100, or, or100, hrevent, 
 
 N1-N5 = numerical values based on each treatment effect
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description**
 
 The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates. 
@@ -195,7 +203,7 @@ This example is calculating the absolute risk of an event-free survival on base 
 Indicating **abseff_hrsurv100** would wield the result on base 100. 
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **References**
 
 Calculations were based on the following publications:
