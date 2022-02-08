@@ -37,7 +37,8 @@ Your commands are now available.
 **Title**
 
 **abseff** - immediate calculation of absolute effects from relative treatment estimates
-Functions:
+
+**Functions**:
 - abseff_rr
 - abseff_rr100
 - abseff_or
