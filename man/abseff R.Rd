@@ -24,14 +24,14 @@ abseff_hrevent100(N1, N2, N3, N4)
 N1 point estimate of the hazard ratio
 N2 lower limit of the confidence interval for the hazard ratio
 N3 upper limit of the confidence interval for the hazard ratio
-N4 % of patients with event in control group
+N4 proportion of patients with event in control group
 
 abseff_surv(N1, N2, N3, N4)
 abseff_surv100(N1, N2, N3, N4)
 N1  point estimate of the hazard ratio
 N2  lower limit of the confidence interval for the hazard ratio
 N3  upper limit of the confidence interval for the hazard ratio
-N4  % of patients with event-free in control group
+N4  proportion of patients with event-free in control group
 }
 \description{
 The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates. 
