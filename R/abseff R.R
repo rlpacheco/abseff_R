@@ -4,7 +4,7 @@ abseff_rr <- function(a, b, c, d, e) {
   z <- round(d/e*b*1000)
   x <- round(d/e*c*1000)
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -19,7 +19,7 @@ abseff_rr100 <- function(a, b, c, d, e) {
   x <- round(d/e*c*100)
   
   
-  print(paste("point_estimate = ", y)) 
+  print(paste("point absolute effect = ", y)) 
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -32,7 +32,7 @@ abseff_or <- function(a, b, c, d, e) {
   z <- round((d/e)*b/(1-(d/e) + ((d/e)*b))*1000)
   x <- round((d/e)*c/(1-(d/e) + ((d/e)*c))*1000)
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -45,7 +45,7 @@ abseff_or100 <- function(a, b, c, d, e) {
   z <- round((d/e)*b/(1-(d/e) + ((d/e)*b))*100)
   x <- round((d/e)*c/(1-(d/e) + ((d/e)*c))*100)
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -56,7 +56,7 @@ abseff_hrsurv <- function(a, b, c, d) {
   z <- round(exp(log(d)*c)*1000)
   x <- round(exp(log(d)*b)*1000)
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -67,7 +67,7 @@ abseff_hrsurv100 <- function(a, b, c, d) {
   z <- round(exp(log(d)*c)*100)
   x <- round(exp(log(d)*b)*100)
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -78,7 +78,7 @@ abseff_hrevent <- function(a, b, c, d) {
   z <- round(1000 - (exp(log(1 - d)*b)*1000))
   x <- round(1000 - (exp(log(1 - d)*c)*1000))
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
@@ -89,7 +89,7 @@ abseff_hrevent100 <- function(a, b, c, d) {
   z <- round(100 - (exp(log(1 - d)*b)*100))
   x <- round(100 - (exp(log(1 - d)*c)*100))
   
-  print(paste("point_estimate = ", y))
+  print(paste("point absolute effect = ", y))
   print(paste("lower_up = ", z)) 
   print(paste("upper_ci = ", x))
   
