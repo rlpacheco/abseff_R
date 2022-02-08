@@ -88,7 +88,7 @@ N5 = total number of participants on control group
 
 "Base 1000"
 
-"The baseline risk with control group is 385 per 1000"
+"The risk with control group is 385 per 1000"
 
 "The anticipated absolute effects is 319 per 1000 (95% CI = 242 to 396 )."
 
@@ -96,7 +96,7 @@ N5 = total number of participants on control group
 
 "Base 100"
 
-"The baseline risk with control group is  38 per 100"
+"The risk with control group is  38 per 100"
 
 "The anticipated absolute effects is 32 per 100 (95% CI = 24 to 40 )."
 
@@ -128,7 +128,7 @@ N5 = total number of participants on control group
 
 "Base 1000"
 
-"The baseline risk with control group is 140 per 1000"
+"The risk with control group is 140 per 1000"
 
 "The anticipated absolute effects is 204 per 1000 (95% CI = 176 to 233 )."
 
@@ -136,7 +136,7 @@ N5 = total number of participants on control group
 
 "Base 100"
 
-"The baseline risk with control group is  14 per 100"
+"The risk with control group is  14 per 100"
 
 "The anticipated absolute effects is 20 per 100 (95% CI = 18 to 23 )."
 
@@ -170,7 +170,7 @@ N4 = % of patients with event in control group
 
 "Base 1000"
 
-"The baseline risk of events in a certain time-point with control group is 55 per 1000"
+"The risk of events in a certain time-point with control group is 55 per 1000"
 
 "The anticipated absolute effects is 50 per 1000 (95% CI = 34 to 73 )."
 
@@ -178,7 +178,7 @@ N4 = % of patients with event in control group
 
 "Base 100"
 
-"The baseline risk of events in a certain time-point with control group is 6 per 100"
+"The risk of events in a certain time-point with control group is 6 per 100"
 
 "The anticipated absolute effects is 5 per 100 (95% CI = 3 to 7 )."
 
@@ -211,7 +211,7 @@ N4 = % of patients with event-free in control group
 
 "Base 1000"
 
-"The baseline proportion of patients free of event in a certain time-point with control group is 700 per 1000"
+"The proportion of patients free of event in a certain time-point with control group is 700 per 1000"
 
 "The anticipated absolute effects is 883 per 1000 (95% CI = 793 to 938 )."
 
@@ -219,7 +219,7 @@ N4 = % of patients with event-free in control group
 
 "Base 100"
 
-"The baseline proportion of patients free of event in a certain time-point with control group is 70 per 100"
+"The proportion of patients free of event in a certain time-point with control group is 70 per 100"
 
 "The anticipated absolute effects is 88 per 100 (95% CI = 79 to 94 )."
 
