@@ -10,12 +10,12 @@ abseff_rr <- function(a, b, c, d, e) {
   i <- round(d/e*c*100)
   
   print(paste("Base 1000"))
-  print(paste("The baseline risk with control group is", v, "per 1000"))
+  print(paste("The risk with control group is", v, "per 1000"))
   print(paste("The anticipated absolute effects is", y, "per 1000 (95% CI =", z, "to", x,")."))
   print(paste("The absolute risk difference is ", y - v, "per 1000 (95% CI =", z - v, "to", x-v,")."))
   print(paste(""))
   print(paste("Base 100"))
-  print(paste("The baseline risk with control group is ", t, "per 100"))
+  print(paste("The risk with control group is ", t, "per 100"))
   print(paste("The anticipated absolute effects is", g, "per 100 (95% CI =", h, "to", i,")."))
   print(paste("The absolute risk difference is ", g - t, "per 100 (95% CI =", h - t, "to", i-t,")."))
   
@@ -33,12 +33,12 @@ abseff_or <- function(a, b, c, d, e) {
   i <- round((d/e)*c/(1-(d/e) + ((d/e)*c))*100)
   
   print(paste("Base 1000"))
-  print(paste("The baseline risk with control group is", v, "per 1000"))
+  print(paste("The risk with control group is", v, "per 1000"))
   print(paste("The anticipated absolute effects is", y, "per 1000 (95% CI =", z, "to", x,")."))
   print(paste("The absolute risk difference is ", y - v, "per 1000 (95% CI =", z - v, "to", x-v,")."))
   print(paste(""))
   print(paste("Base 100"))
-  print(paste("The baseline risk with control group is ", t, "per 100"))
+  print(paste("The risk with control group is ", t, "per 100"))
   print(paste("The anticipated absolute effects is", g, "per 100 (95% CI =", h, "to", i,")."))
   print(paste("The absolute risk difference is ", g - t, "per 100 (95% CI =", h - t, "to", i-t,")."))
   
@@ -56,12 +56,12 @@ abseff_hrsurv <- function(a, b, c, d) {
   i <- round(exp(log(d)*b)*100)
   
   print(paste("Base 1000"))
-  print(paste("The baseline proportion of patients free of event in a certain time-point with control group is", v, "per 1000"))
+  print(paste("The proportion of patients free of event in a certain time-point with control group is", v, "per 1000"))
   print(paste("The anticipated absolute effects is", y, "per 1000 (95% CI =", z, "to", x,")."))
   print(paste("The absolute risk difference is ", y - v, "per 1000 (95% CI =", z - v, "to", x-v,")."))
   print(paste(""))
   print(paste("Base 100"))
-  print(paste("The baseline proportion of patients free of event in a certain time-point with control group is", t, "per 100"))
+  print(paste("The proportion of patients free of event in a certain time-point with control group is", t, "per 100"))
   print(paste("The anticipated absolute effects is", g, "per 100 (95% CI =", h, "to", i,")."))
   print(paste("The absolute risk difference is ", g - t, "per 100 (95% CI =", h - t, "to", i-t,")."))
   
@@ -79,12 +79,12 @@ abseff_hrevent <- function(a, b, c, d) {
   i <- round(100 - (exp(log(1 - d)*c)*100))
   
   print(paste("Base 1000"))
-  print(paste("The baseline risk of events in a certain time-point with control group is", v, "per 1000"))
+  print(paste("The risk of event in a certain time-point with control group is", v, "per 1000"))
   print(paste("The anticipated absolute effects is", y, "per 1000 (95% CI =", z, "to", x,")."))
   print(paste("The absolute risk difference is ", y - v, "per 1000 (95% CI =", z - v, "to", x-v,")."))
   print(paste(""))
   print(paste("Base 100"))
-  print(paste("The baseline risk of events in a certain time-point with control group is", t, "per 100"))
+  print(paste("The risk of event in a certain time-point with control group is", t, "per 100"))
   print(paste("The anticipated absolute effects is", g, "per 100 (95% CI =", h, "to", i,")."))
   print(paste("The absolute risk difference is ", g - t, "per 100 (95% CI =", h - t, "to", i-t,")."))
   
