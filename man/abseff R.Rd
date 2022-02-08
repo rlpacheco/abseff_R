@@ -33,13 +33,11 @@ N2 = lower limit of the confidence interval for the hazard ratio
 N3 = upper limit of the confidence interval for the hazard ratio
 N4 = % of patients with event-free in control group
 }
-
 \description{
 The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates. 
 The main intention of this command is to facilitate absolute effects derivation for health researchers and systematic review authors. Editors and peer-reviewers of Cochrane reviews may also find this helpful as they have to revise multiple summary of findings table.
 }
 \examples{
-  
 abseff_rr(0.83, 0.63, 1.03, 50, 130)
 abseff_rr100(0.83, 0.63, 1.03, 50, 130)
 abseff_or(1.57, 1.31, 1.87, 14, 100)
