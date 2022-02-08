@@ -31,6 +31,8 @@ e-mail: rleitepacheco@hotmail.com
 
 (Step 3) Then type: install_github("rlpacheco/abseff_R")
 
+(Step 4) Loading the package: library(abseff)
+
 Your commands are now available.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
