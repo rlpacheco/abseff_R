@@ -1,6 +1,6 @@
 \name{abseff}
 \alias{abseff}
-\title{Hello, World!}
+\title{immediate calculation of absolute effects from relative treatment estimates}
 \usage{
 hello()
 }
