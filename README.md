@@ -29,7 +29,7 @@ e-mail: rleitepacheco@hotmail.com
 
 (Step 2) Load devtools package: library(devtools)
 
-(Step 3) Then type: install_github("rleitepacheco/abseff_R")
+(Step 3) Then type: install_github("rlpacheco/abseff_R")
 
 Your commands are now available.
 
