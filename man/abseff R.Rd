@@ -10,11 +10,11 @@ Syntax
 abseff_rr(a, b, c, d, e)
 abseff_or(a, b, c, d, e)
 
-N1 point estimate of the relative treatment effect (rr/or)
-N2 lower limit of the confidence interval for the relative treatment effect (rr/or)
-N3 upper limite of the confidence interval for the relative treatment effect (rr/or)
-N4 total number of events on control group
-N5 total number of participants on control group
+a point estimate of the relative treatment effect (rr/or)
+b lower limit of the confidence interval for the relative treatment effect (rr/or)
+c upper limite of the confidence interval for the relative treatment effect (rr/or)
+d total number of events on control group
+e total number of participants on control group
 
 abseff_hrevent(a, b, c, d)
 
