@@ -55,7 +55,7 @@ where,
 
 X = identification of treatment effect estimate (rr, or, hrevent, hrsurv)
 
-N1-N5 = numerical values based on each treatment effect
+a-e = numerical values based on each treatment effect
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description**
