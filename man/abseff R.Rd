@@ -2,13 +2,13 @@
 \alias{abseff}
 \title{abseff - immediate calculation of absolute effects from relative treatment estimates}
 \usage{
-abseff_X (N1, N2, N3, N4, N5)
+abseff_X (a, b, c, d, e)
 X is the identification of treatment effect estimate (rr, or, hrevent, hrsurv)
-N1-N5 are numerical values based on each treatment effect
+a-e are numerical values based on each treatment effect
 
 Syntax
-abseff_rr(N1, N2, N3, N4, N5)
-abseff_or(N1, N2, N3, N4, N5)
+abseff_rr(a, b, c, d, e)
+abseff_or(a, b, c, d, e)
 
 N1 point estimate of the relative treatment effect (rr/or)
 N2 lower limit of the confidence interval for the relative treatment effect (rr/or)
@@ -16,19 +16,19 @@ N3 upper limite of the confidence interval for the relative treatment effect (rr
 N4 total number of events on control group
 N5 total number of participants on control group
 
-abseff_hrevent(N1, N2, N3, N4)
+abseff_hrevent(a, b, c, d)
 
-N1 point estimate of the hazard ratio
-N2 lower limit of the confidence interval for the hazard ratio
-N3 upper limit of the confidence interval for the hazard ratio
-N4 proportion of patients with event in control group
+a point estimate of the hazard ratio
+b lower limit of the confidence interval for the hazard ratio
+c upper limit of the confidence interval for the hazard ratio
+d proportion of patients with event in control group
 
-abseff_surv(N1, N2, N3, N4)
+abseff_surv(a, b, c, d)
 
-N1  point estimate of the hazard ratio
-N2  lower limit of the confidence interval for the hazard ratio
-N3  upper limit of the confidence interval for the hazard ratio
-N4  proportion of patients with event-free in control group
+a  point estimate of the hazard ratio
+b  lower limit of the confidence interval for the hazard ratio
+c  upper limit of the confidence interval for the hazard ratio
+d  proportion of patients with event-free in control group
 }
 \description{
 The command abseff was created for the immediate calculating of absolute effects based on relative treatment estimates. 
