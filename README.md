@@ -49,7 +49,7 @@ Your commands are now available.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Syntax**
 
-**abseff_X** (N1, N2, N3, N4, N5) 
+**abseff_X** (a, b, c, d, e) 
 
 where,
 
@@ -67,17 +67,17 @@ The main intention of this command is to facilitate absolute effects derivation 
 
 1) **Absolute effect based on relative risk (risk ratios)**
 
-**abseff_rr**(N1, N2, N3, N4, N5)
+**abseff_rr**(a, b, c, d, e)
 
-N1 = point estimate for the relative risk
+a = point estimate for the relative risk
 
-N2 = lower limit of the confidence interval for the relative risk
+b = lower limit of the confidence interval for the relative risk
 
-N3 = upper limit of the confidence interval for the relative risk
+c = upper limit of the confidence interval for the relative risk
 
-N4 = total number of events on control group
+d = total number of events on control group
 
-N5 = total number of participants on control group
+e = total number of participants on control group
 
 
 *Example (1)*: 
@@ -108,17 +108,17 @@ This example is calculating the absolute effects for a relative risk of 0.83 (95
 
 2) **Absolute effect based on odds ratios**
 
-**abseff_or**(N1, N2, N3, N4, N5)
+**abseff_or**(a, b, c, d, e)
 
-N1 = point estimate for the odds ratio
+a = point estimate for the odds ratio
 
-N2 = lower limit of the confidence interval for the odds ratio
+b = lower limit of the confidence interval for the odds ratio
 
-N3 = upper limit of the confidence interval for the odds ratio
+c = upper limit of the confidence interval for the odds ratio
 
-N4 = total number of events on control group
+d = total number of events on control group
 
-N5 = total number of participants on control group
+e = total number of participants on control group
 
 *Example (2)*:
 
@@ -152,15 +152,15 @@ This example is calculating the absolute effects on base 1000 for a odds ratio o
 
 **Event calculation (absolute risk of an event within a particular period of time)**
 
-**abseff_hrevent**(N1, N2, N3, N4) 
+**abseff_hrevent**(a, b, c, d) 
 
-N1 = point estimate for the hazard ratio
+a = point estimate for the hazard ratio
 
-N2 = lower limit of the confidence interval for the hazard ratio
+b = lower limit of the confidence interval for the hazard ratio
 
-N3 = upper limit of the confidence interval for the hazard ratio
+c = upper limit of the confidence interval for the hazard ratio
 
-N4 = % of patients with event in control group
+d = % of patients with event in control group
 
 *Example (3)*:
 
@@ -193,15 +193,15 @@ For hazard ratios, we included the % of patients with event in control group, as
 
 4) **Event-free survival calculation (absolute risk of event-free survival within a particular period of time)**
 
-**abseff_hrsurv**(N1, N2, N3, N4)  
+**abseff_hrsurv**(a, b, c, d)  
 
-N1 = point estimate for the hazard ratio
+a = point estimate for the hazard ratio
 
-N2 = lower limit of the confidence interval for the hazard ratio
+b = lower limit of the confidence interval for the hazard ratio
 
-N3 = upper limit of the confidence interval for the hazard ratio
+c = upper limit of the confidence interval for the hazard ratio
 
-N4 = % of patients with event-free in control group
+d = % of patients with event-free in control group
 
 *Example (6)*:
 
