@@ -227,7 +227,7 @@ d = % of patients with event-free in control group
 
 *Explanation*:
 
-This example is calculating the absolute risk of an event-free survival on base 1000 for a hazard ratio of 0.35 (95% CI of 0.18 to 0.65) considering a control risk of 0.7 (70%, 700 per 1000) in a particular time (e.g. 5 years). The antecipated risk of event-free (e.g. alive) patients with intervention is 883 (793 to 938) per 1000 patients, corresponding to an absolute difference of 183 more events per 1000 (93 more to 238 more). The display also presents the results on base 100.
+This example is calculating the absolute risk of an event-free survival on base 1000 for a hazard ratio of 0.35 (95% CI of 0.18 to 0.65) considering a control risk of 0.7 (70%, 700 per 1000) in a particular time (e.g. 5 years). The antecipated risk of event-free (e.g. alive) patients with intervention is 883 (793 to 938) per 1000 patients, corresponding to an absolute difference of 183 more event-free patients per 1000 (93 more to 238 more). The display also presents the results on base 100.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **References**
